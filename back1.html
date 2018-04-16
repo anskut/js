@@ -1,0 +1,31 @@
+<!doctype html>
+ <html>
+    <head>
+       <meat charset="utf-8">
+        <title>function Array 数组</title>
+    </head>
+    <body>
+        <script>
+          var scores = [10, 23, 44, 59, 89, 45, 70, 90];
+ 
+          var names = ['alex', 'luna', 'maite', 'tom', 'jerry'];
+ 
+          var mixed = ['alex', 33, 'tom', 666];
+ 
+          scores[0] = 666;
+ 
+          function showArr(arr){
+              var i = 0;
+              while (i < arr.length ){
+              document.write(arr[i] + "<br>");
+              i++;
+          }
+              document.write("<br>");
+           }
+ 
+           showArr(scores);
+           showArr(names);
+           showArr(mixed);     
+        </script>
+       </body>
+</html>
